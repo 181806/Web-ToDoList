@@ -51,6 +51,19 @@ button:hover{
     color: rgb(105, 3, 3);
     font-size: 10px;
 }
+/* #daftar{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    line-break: 8px;
+    border-color: grey;
+
+}
+#daftar li{
+    flex-direction: column;
+    justify-content: left;
+    color: black;
+} */
 table{
     display: flex;
     flex-direction: column;

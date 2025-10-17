@@ -1,5 +1,36 @@
 // daftar.innerHTML.localStorage.getitem("dataKegiatan")||("")
 
+// yg di comment file tugas onsite (bikin 2 file supaya ga berantakan, file ini trial and error nya banyak
+// takut bingung)
+
+// const itemForm = document.getElementById("itemForm")
+// const itemInput = document.getElementById("itemInput")
+// const errorMessage = document.getElementById("errorMessage")
+// const daftar = document.getElementById("daftar")
+
+// //event listener
+// itemForm.addEventListener("submit", function(event) {
+//     event.preventDefault();
+//     const inputValue = itemInput.value.trim();
+
+//     if(inputValue === ""){
+//         errorMessage.textContent = "Field tidak boleh kosong."
+//         itemInput.classList.add ('invalid')
+//         itemInput.classList.remove ('valid')  
+//     } else{
+//      errorMessage.textContent = ""
+//         itemInput.classList.add ('valid')  
+//         itemInput.classList.remove ('invalid')
+//         const newItem = document.createElement("li")
+//         newItem.textContent = inputValue
+//         daftar.append(newItem)
+//         itemInput.value = " ";
+//     }
+// })
+// daftar.addEventListener("click", function(event){
+//     itemInput.elemenent.style.property = 'line-through';
+// })
+
 //ambil elemen
 const itemForm = document.getElementById("itemForm")
 const itemInput = document.getElementById("itemInput")
